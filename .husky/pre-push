@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [ ! -f "$(dirname "$0")/_/husky.sh" ] ; then
+  exit
+fi
+
+. "$(dirname "$0")/_/husky.sh"
+
+npm run eslint
+npm run build
+npm run test

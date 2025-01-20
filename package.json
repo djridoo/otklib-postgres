@@ -1,0 +1,39 @@
+{
+  "name": "@otklib/postgres",
+  "version": "1.0.0",
+  "description": "",
+  "author": "otkd",
+  "license": "MIT",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prettier": "prettier --write -l \"{src,tests}/**/*.ts\"",
+    "eslint": "eslint \"**/*.ts\" --cache",
+    "test": "jest -c jest.config.ts",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@otklib/core": "^1.0.1",
+    "@otklib/db": "^1.0.1",
+    "pg": "8.13.0"
+  },
+  "devDependencies": {
+    "@types/jest": "29.5.14",
+    "@types/lodash": "4.17.13",
+    "@types/node": "20.17.6",
+    "@types/pg": "8.11.10",
+    "@typescript-eslint/parser": "8.14.0",
+    "eslint": "8.57.1",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-import-resolver-alias": "1.1.2",
+    "eslint-plugin-import": "2.31.0",
+    "husky": "9.1.7",
+    "jest": "29.7.0",
+    "prettier": "3.3.3",
+    "ts-jest": "29.2.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.6.3"
+  }
+}
