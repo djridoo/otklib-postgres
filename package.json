@@ -1,6 +1,6 @@
 {
   "name": "@otklib/postgres",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "author": "otkd",
   "license": "MIT",
@@ -14,8 +14,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@otklib/core": "^1.0.1",
-    "@otklib/db": "^1.0.1",
+    "@otklib/core": "^1.0.2",
+    "@otklib/db": "^1.0.2",
     "pg": "8.13.0"
   },
   "devDependencies": {
